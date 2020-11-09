@@ -6,15 +6,17 @@
 .buy_iphone_body {
   margin-top: 10vh;
   width: 90%;
-  height: 52vh;
-  padding: 2.5vh;
-  background-color: white;
-  border-radius: 2vh;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   .ant-select-selector {
     border: 2px solid #2e5cc0 !important;
     border-radius: 2vh !important;
     cursor: pointer !important;
+  }
+  .product_info {
+    padding: 2.5vh 2.5vh 0vh 2.5vh;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 }
 
